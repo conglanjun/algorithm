@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Algorithm.dir/main.cpp.o CMakeFiles/Algorithm.dir/search/BinarySearch.cpp.o CMakeFiles/Algorithm.dir/patch/ShortPath.cpp.o CMakeFiles/Algorithm.dir/sort/MergeSort.cpp.o  -o Algorithm 

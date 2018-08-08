@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/conglj/CLionProjects/algorithm/main.cpp
+iostream
+-
+patch/ShortPath.h
+/home/conglj/CLionProjects/algorithm/patch/ShortPath.h
+search/BinarySearch.h
+/home/conglj/CLionProjects/algorithm/search/BinarySearch.h
+sort/MergeSort.h
+/home/conglj/CLionProjects/algorithm/sort/MergeSort.h
+
+/home/conglj/CLionProjects/algorithm/patch/ShortPath.cpp
+ShortPath.h
+/home/conglj/CLionProjects/algorithm/patch/ShortPath.h
+
+/home/conglj/CLionProjects/algorithm/patch/ShortPath.h
+iostream
+-
+
+/home/conglj/CLionProjects/algorithm/search/BinarySearch.cpp
+BinarySearch.h
+/home/conglj/CLionProjects/algorithm/search/BinarySearch.h
+
+/home/conglj/CLionProjects/algorithm/search/BinarySearch.h
+vector
+-
+
+/home/conglj/CLionProjects/algorithm/sort/MergeSort.cpp
+MergeSort.h
+/home/conglj/CLionProjects/algorithm/sort/MergeSort.h
+
+/home/conglj/CLionProjects/algorithm/sort/MergeSort.h
+vector
+-
+
