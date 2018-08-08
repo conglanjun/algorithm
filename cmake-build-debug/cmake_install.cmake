@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/conglj/CLionProjects/algorithm
+=======
+# Install script for directory: /home/conglj/CLionProjects/Algorithm
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +44,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/home/conglj/CLionProjects/algorithm/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/conglj/CLionProjects/Algorithm/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

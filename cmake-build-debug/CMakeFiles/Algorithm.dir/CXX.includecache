@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+=======
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
 
 #IncludeRegexScan: ^.*$
 
@@ -6,6 +10,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/conglj/CLionProjects/algorithm/main.cpp
 iostream
 -
@@ -37,6 +42,29 @@ MergeSort.h
 /home/conglj/CLionProjects/algorithm/sort/MergeSort.h
 
 /home/conglj/CLionProjects/algorithm/sort/MergeSort.h
+=======
+/home/conglj/CLionProjects/Algorithm/main.cpp
+iostream
+-
+patch/ShortPath.h
+/home/conglj/CLionProjects/Algorithm/patch/ShortPath.h
+search/BinarySearch.h
+/home/conglj/CLionProjects/Algorithm/search/BinarySearch.h
+
+/home/conglj/CLionProjects/Algorithm/patch/ShortPath.cpp
+ShortPath.h
+/home/conglj/CLionProjects/Algorithm/patch/ShortPath.h
+
+/home/conglj/CLionProjects/Algorithm/patch/ShortPath.h
+iostream
+-
+
+/home/conglj/CLionProjects/Algorithm/search/BinarySearch.cpp
+BinarySearch.h
+/home/conglj/CLionProjects/Algorithm/search/BinarySearch.h
+
+/home/conglj/CLionProjects/Algorithm/search/BinarySearch.h
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
 vector
 -
 

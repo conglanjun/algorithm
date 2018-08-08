@@ -8,6 +8,7 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
+<<<<<<< HEAD
 				<Option working_dir="/home/conglj/CLionProjects/algorithm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -40,14 +41,57 @@
 			<Target title="Algorithm">
 				<Option output="/home/conglj/CLionProjects/algorithm/cmake-build-debug/Algorithm" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/conglj/CLionProjects/algorithm/cmake-build-debug"/>
+=======
+				<Option working_dir="/home/conglj/CLionProjects/Algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/conglj/CLionProjects/Algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/conglj/CLionProjects/Algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Algorithm">
+				<Option output="/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Algorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/conglj/CLionProjects/Algorithm/cmake-build-debug"/>
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
+=======
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+<<<<<<< HEAD
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
@@ -63,14 +107,37 @@
 			<Target title="Algorithm/fast">
 				<Option output="/home/conglj/CLionProjects/algorithm/cmake-build-debug/Algorithm" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/conglj/CLionProjects/algorithm/cmake-build-debug"/>
+=======
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Algorithm/fast">
+				<Option output="/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Algorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/conglj/CLionProjects/Algorithm/cmake-build-debug"/>
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
+=======
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+<<<<<<< HEAD
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
@@ -106,6 +173,34 @@
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="/home/conglj/CLionProjects/algorithm/CMakeLists.txt">
+=======
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/conglj/CLionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/conglj/CLionProjects/Algorithm/main.cpp">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="/home/conglj/CLionProjects/Algorithm/patch/ShortPath.cpp">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="/home/conglj/CLionProjects/Algorithm/patch/ShortPath.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="/home/conglj/CLionProjects/Algorithm/search/BinarySearch.cpp">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="/home/conglj/CLionProjects/Algorithm/search/BinarySearch.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="/home/conglj/CLionProjects/Algorithm/CMakeLists.txt">
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

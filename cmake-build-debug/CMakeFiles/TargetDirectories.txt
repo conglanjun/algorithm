@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /home/conglj/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/conglj/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/conglj/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir
+=======
+/home/conglj/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/conglj/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/conglj/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir
+>>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
