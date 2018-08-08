@@ -1,17 +1,15 @@
 #include <iostream>
 #include "patch/ShortPath.h"
 #include "search/BinarySearch.h"
-<<<<<<< HEAD
+
 #include "sort/MergeSort.h"
-=======
->>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
+
 
 using namespace std;
 
 int main() {
 //    ShortPath shortPath;
 //    shortPath.getShortPath();
-<<<<<<< HEAD
     /*BinarySearch binarySearch;
     int ret = 0;
     binarySearch.binary_search(-1, ret);
@@ -23,11 +21,9 @@ int main() {
     for(int i = 0; i < 8; ++i){
         printf("%d, ", arr[i]);
     }
-=======
-    BinarySearch binarySearch;
+    /*BinarySearch binarySearch;
     int ret = 0;
     binarySearch.binary_search(-1, ret);
-    printf("ret = %d\n", ret);
->>>>>>> a4e189fd1c1ee1852383f421a56207bfa954c99e
+    printf("ret = %d\n", ret);*/
     return 0;
 }
